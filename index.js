@@ -205,6 +205,7 @@ export const createImageProgress = ImageComponent =>
             onProgress={this.handleProgress}
             onError={this.handleError}
             onLoad={this.handleLoad}
+            onLoadEnd={this.handleLoad}
             source={source}
             style={StyleSheet.absoluteFill}
           />
